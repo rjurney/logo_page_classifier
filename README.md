@@ -13,7 +13,7 @@ The bulk of the work will be feature extraction: figuring out what about a web p
 * How many external links are present?
 * How many known company names appear in the page?
 
-It is convenient to create libraries that can be executred on arbitrary input as command line tools. These tools should return json, which can then be loaded into sklearn.
+It is convenient to create libraries that can be executred on arbitrary input as command line tools. These tools should return json, which can then be loaded into sklearn. See [sklearn feature_extraction](http://scikit-learn.org/stable/modules/feature_extraction.html) parsing of json.
 
 ### Keywords in URL
 
